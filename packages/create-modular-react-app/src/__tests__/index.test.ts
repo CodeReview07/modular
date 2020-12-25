@@ -62,6 +62,7 @@ describe('create-modular-react-app', () => {
       ├─ .editorconfig #1p4gvuw
       ├─ .eslintignore #1ugsijf
       ├─ .gitignore #1ugsijf
+      ├─ .prettierignore #1hq0515
       ├─ .vscode
       │  ├─ extensions.json #1i4584r
       │  └─ settings.json #xncm1d

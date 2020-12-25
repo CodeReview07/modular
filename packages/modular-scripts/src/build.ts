@@ -166,7 +166,7 @@ const typescriptConfig: TSConfig = {};
       'jspm_packages',
       'tmp',
       // Unclear why this is resolving as "any"
-      // eslint-disable-next-line
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
       ...(configObject.exclude || []),
     ]),
   });

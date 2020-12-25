@@ -156,6 +156,8 @@ describe('modular-scripts', () => {
 
     expect(tree(path.join(packagesPath, 'sample-app'))).toMatchInlineSnapshot(`
       "sample-app
+      ├─ .eslintignore #2nh6sf
+      ├─ .prettierignore #2nh6sf
       ├─ package.json
       ├─ public
       │  ├─ favicon.ico #6pu3rg
